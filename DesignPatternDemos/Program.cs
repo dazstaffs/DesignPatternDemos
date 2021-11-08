@@ -1,4 +1,5 @@
 ﻿using DesignPatternDemos.Pattern.Behavioural.ChainOfResponsibilityPattern;
+using DesignPatternDemos.Pattern.Behavioural.ObserverPattern;
 using DesignPatternDemos.Pattern.Behavioural.StrategyPattern;
 using DesignPatternDemos.Pattern.Behavioural.TemplatePattern;
 using DesignPatternDemos.Pattern.Behavioural.VisitorPattern;
@@ -25,7 +26,8 @@ namespace DesignPatternDemos
             //FacadePatternDemo.StartFacadePatternDemo();
             //VisitorPatternDemo.StartVisitorPatternDemo();
             //ChainOfResponsibilityPatternDemo.StartChainOfResponsibilityDemo();
-            DecoratorPatternDemo.StartDecoratorPatternDemo();
+            //DecoratorPatternDemo.StartDecoratorPatternDemo();
+            ObserverPatternDemo.StartObserverPatternDemo();
             Console.Read();
         }
     }
