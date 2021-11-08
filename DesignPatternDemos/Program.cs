@@ -5,6 +5,7 @@ using DesignPatternDemos.Pattern.Behavioural.TemplatePattern;
 using DesignPatternDemos.Pattern.Behavioural.VisitorPattern;
 using DesignPatternDemos.Pattern.Creational.BuilderPattern;
 using DesignPatternDemos.Pattern.Creational.FactoryMethodPattern;
+using DesignPatternDemos.Pattern.Creational.PrototypePattern;
 using DesignPatternDemos.Pattern.Creational.Singleton;
 using DesignPatternDemos.Pattern.Structural.AdapterPattern;
 using DesignPatternDemos.Pattern.Structural.BridgePattern;
@@ -29,7 +30,8 @@ namespace DesignPatternDemos
             //ChainOfResponsibilityPatternDemo.StartChainOfResponsibilityDemo();
             //DecoratorPatternDemo.StartDecoratorPatternDemo();
             //ObserverPatternDemo.StartObserverPatternDemo();
-            BridgePatternDemo.StartBridgePatternDemo();
+            //BridgePatternDemo.StartBridgePatternDemo();
+            PrototypePatternDemo.StartPrototypePatternDemo();
             Console.Read();
         }
     }

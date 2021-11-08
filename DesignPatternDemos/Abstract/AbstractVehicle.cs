@@ -40,6 +40,11 @@ namespace DesignPatternDemos.Abstract
             Console.WriteLine("Cleaning Interior");
         }
 
+        public virtual object Clone()
+        {
+            return this.MemberwiseClone();
+        }
+
         public void Paint(VehicleColour colour)
         {
             this.colour = colour;

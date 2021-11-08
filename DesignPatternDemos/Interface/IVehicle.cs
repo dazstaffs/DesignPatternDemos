@@ -1,8 +1,9 @@
 ﻿using DesignPatternDemos.Enum;
+using System;
 
 namespace DesignPatternDemos.Interface
 {
-    public interface IVehicle
+    public interface IVehicle:ICloneable
     {
         IEngine Engine { get; }
         VehicleColour Colour { get; }
