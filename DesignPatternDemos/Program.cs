@@ -7,6 +7,7 @@ using DesignPatternDemos.Pattern.Creational.BuilderPattern;
 using DesignPatternDemos.Pattern.Creational.FactoryMethodPattern;
 using DesignPatternDemos.Pattern.Creational.Singleton;
 using DesignPatternDemos.Pattern.Structural.AdapterPattern;
+using DesignPatternDemos.Pattern.Structural.BridgePattern;
 using DesignPatternDemos.Pattern.Structural.DecoratorPattern;
 using DesignPatternDemos.Pattern.Structural.StructuralPattern;
 using System;
@@ -27,7 +28,8 @@ namespace DesignPatternDemos
             //VisitorPatternDemo.StartVisitorPatternDemo();
             //ChainOfResponsibilityPatternDemo.StartChainOfResponsibilityDemo();
             //DecoratorPatternDemo.StartDecoratorPatternDemo();
-            ObserverPatternDemo.StartObserverPatternDemo();
+            //ObserverPatternDemo.StartObserverPatternDemo();
+            BridgePatternDemo.StartBridgePatternDemo();
             Console.Read();
         }
     }
